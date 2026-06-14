@@ -16,7 +16,7 @@ stages {
     stage('Checkout Code') {
         steps {
             git branch: 'main',
-                url: https://github.com/SagarikaTalukdar/Sagarika_CapstoneProject.git
+                url: 'https://github.com/SagarikaTalukdar/Sagarika_CapstoneProject.git'
         }
     }
 
